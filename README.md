@@ -7,7 +7,7 @@ The app is designed around one idea:
 **Structure your thoughts, then navigate them.**
 
 ---
-## Screenshots
+## Screenshots 
 
 ### Empty State
 ![Empty](Screenshots/empty.png)
