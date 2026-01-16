@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyNoter</title>
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./favicon.ico" />
+  </head>
+  <body>
     <div class="app">
-        <div class="single">
-    <div class="toolbar">
-        <button id="delBtn">🗑️ Delete Note</button>
-        <button id="saveBtn">💾 Save Note</button>
-        <button id="show">📝 Show Notes</button>
-    </div>
-
-    <div class="layout">
-        <div id="list"></div>
-
-        <div class="main">
-            <input type="text" id="title" placeholder="Note title">
-            <textarea name="noter" id="noter" placeholder="Enter your note"></textarea>
+      <div class="single">
+        <div class="toolbar">
+          <button id="delBtn">🗑️ Delete Note</button>
+          <button id="saveBtn">💾 Save Note</button>
+          <button id="show">📝 Show Notes</button>
         </div>
-    </div>
-    </div>
-</div>
 
-</body>
+        <div class="layout">
+          <div id="list"></div>
+
+          <div class="main">
+            <input type="text" id="title" placeholder="Note title" />
+            <textarea
+              name="noter"
+              id="noter"
+              placeholder="Enter your note"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
