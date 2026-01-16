@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background: #0f1115;
+    color: #e6e6e6;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+button {
+    background: #1c1f26;
+    color: #e6e6e6;
+    border: 1px solid #2a2f3a;
+    padding: 10px 14px;
+    margin-right: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, border 0.2s;
+}
+
+button:hover {
+    background: #242834;
+    border-color: #3a4152;
+}
+
+#list {
+    margin-top: 20px;
+    max-width: 280px;
+}
+
+#list div {
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    background: #151821;
+    border: 1px solid #242834;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#list div:hover {
+    background: #1f2330;
+}
+
+.main {
+    margin-top: 24px;
+    max-width: 600px;
+}
+
+#title {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    background: #151821;
+    border: 1px solid #242834;
+    border-radius: 6px;
+    color: #e6e6e6;
+    outline: none;
+}
+
+#title:focus {
+    border-color: #3a4152;
+}
+
+#noter {
+    width: 100%;
+    min-height: 240px;
+    padding: 12px;
+    background: #151821;
+    border: 1px solid #242834;
+    border-radius: 8px;
+    color: #e6e6e6;
+    resize: vertical;
+    outline: none;
+}
+
+#noter:focus {
+    border-color: #3a4152;
+}
